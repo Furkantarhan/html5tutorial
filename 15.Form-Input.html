@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form ve input</title>
+</head>
+<body bgcolor="##66ff33">
+    <!-- html5 input  -->
+    <form>
+        <label for="isim">İsminizi giriniz: </label> <br />
+        <input type="text" id="isim" name="isim" placeholder="Ör:Furkan" ><br />
+        <label for="soyisim">Soyisminizi giriniz: </label> <br />
+        <input type="text" id="soyisim" name="soyisim" placeholder="Ör:Tarhan" ><br />
+        <label for="tcno">TC. No Giriniz:</label> <br />
+        <input type="text" name="tecno" id="tcno" placeholder="Ör:55555555555" ><br />
+        <label for="sifre">Sifrenizi Giriniz:</label> <br />
+        <input type="password" name="sifre" id="sifre" ><br />
+        <label for="dtarihi">Dogum Tarihinizi Giriniz:</label><br />
+        <input type="date" name="dtarihi" id="dtarihi"><br />
+        <label for="email">E-mailinizi Giriniz:</label><br />
+        <input type="email" name="email" id="email" placeholder="birisi@example.com"><br />
+       
+
+        Gender:
+         <br />
+        Male:  
+        <input type="radio" name="Gender" value="male"> <br>
+        Female:  
+        <input type="radio" name="Gender" id="female"> <br>
+        Other:
+        <input type="radio" name="Gender" id="other"> <br />
+
+        Daha Önce Hangi Sektörde Çaliştiniz ?
+         <input type="checkbox" name="ozel" id="ozel">
+        Özel Sektor 
+        <input type="checkbox" name="devlet" id="devlet">
+        Kamu <br />
+
+        Eğitim Düzeyi: <br />
+        <select name="Derece" id="Derece">
+            <option value="İlkokul"> İlkokul Mezunu</option>
+            <option value="Lise"> Lise Mezunu</option>
+            <option value="Üniversite" selected> Üniversite Mezunu</option>
+           
+        </select><br />
+        <textarea name="massage" id="massage" cols="50" rows="10" placeholder="Nedeniniz...">Neden Bizi Tercih Ediyorsunuz ?</textarea>
+        
+        <button type="reset">SIFIRLA</button>
+        <input type="submit" name="submit" id="submit" value="GONDER">
+
+
+
+
+    </form>
+</body>
+</html>
